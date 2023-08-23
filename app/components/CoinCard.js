@@ -3,7 +3,7 @@ import Link from "next/link";
 
 
 function CoinCard({ coin }) {
-    console.log(coin);
+    // console.log(coin);
     return ( 
         <div className="coin-card">
             <h3 className="coin-name">{coin.name}</h3>
